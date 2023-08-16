@@ -1,0 +1,34 @@
+230  git init
+  231  git remote add origin https://github.com/IvanCa27/Checkpoint-IvanCaetano.git
+  232  touch main.js index.html
+  233  git add .
+  234  git status
+  235  git branch -M main
+  236  git status
+  237  git commit -m "first commit"
+  238  git push origin main
+  239  git branch feature
+  240  git branch
+  241  git checkout feature
+  242  mkdir Hardware
+  243  mkdir Software
+  244  mkdir SeguridadInformatica
+  245  cd Software/
+  246  touch resumen.txt
+  247  cd..
+  248  cd ..
+  249  cd Hardware/
+  250  touch resumen.txt
+  251  cd ..
+  252  cd SeguridadInformatica/
+  253  touch resumen.txt
+  254  git add .
+  255  git commit -m "agrego resumen.txt"
+  256  git push origin feature
+  257  git checkout main
+  258  mv main.js resumenHardware.txt
+  259  cd ..
+  260  mv main.js resumenHardware.txt
+  261  mv index.html resumenSoftware.txt
+  262  touch comandos.txt
+  263  history
